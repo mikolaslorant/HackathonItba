@@ -36,9 +36,10 @@ img {
 .upperbar {
 	width:110%;
 	height: 150px;
+	background-image: url("header.jpg");
 }
 .hosplist {
-	width: 400px !important;
+	width: 500px !important;
 }
 
 #point {
