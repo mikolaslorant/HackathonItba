@@ -1,3 +1,9 @@
+.upperBar {
+    color: white;
+    margin-left: 34%;
+    margin-top: 50%;
+    font-family: delicious;
+}
 img {
     max-width: 100%;
     height: auto;
