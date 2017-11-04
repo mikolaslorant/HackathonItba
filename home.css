@@ -1,0 +1,11 @@
+#map{
+	margin-left: 3%;
+	height: 1000px;
+	width: 1000px;
+}
+
+#amb{
+	height: 600px;
+	width: 600px;
+	background: url("/image/ambulance.jpg") no-repeat;
+}
