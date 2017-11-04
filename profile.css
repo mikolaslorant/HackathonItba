@@ -66,3 +66,13 @@ table{
 	font-size: 24px;
 	text-align: center;
 }
+
+#holder{
+	background-color: #fff2dc;
+
+border-radius: 100px;
+
+margin-left: 50px;
+
+margin-top: 50px;
+}
