@@ -1,0 +1,76 @@
+.upperBar {
+    font-family: delicious;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.central {
+	height: 100%;
+}
+.btn {
+	margin-bottom: 2%;
+	margin-top: 2% ;
+	margin-left: 10% ;
+}
+
+.lat-btn {
+	margin-bottom: 4%;
+	margin-top: 4% ;
+	margin-left:2%;
+}
+.lateralbar {
+	border-right: solid black 1px;
+	height: 2000px;
+}
+#logo {
+    width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    float: left;
+    margin: 1px;
+    padding: 1px;
+}
+.upperbar {
+	width:110%;
+	height: 150px;
+	background-image: url("fondo.png");
+}
+.hosplist {
+	width: 500px !important;
+}
+
+#point {
+	font:Impact, Charcoal, sans-serif;
+}
+
+#greeting {
+	font-size: 25px;
+	color: white;
+}
+#separated {
+	margin-top: 20%;
+}
+
+
+#hospitals{
+	background-color: rgba(243,40,155,0.6);
+    height: 500px;
+    width: 550px;
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-right:5%;
+}
+
+#my_points{
+	background-color: rgba(195,13,35,0.6);
+	border-radius: 60px;
+	margin-left: 5%;
+}
+#sapras{
+	margin-left: 100px;
+}
+
+#hospital-name{
+	margin-left: 48%;
+}

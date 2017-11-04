@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!--My CSS-->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="stylepage.css">
+    <link rel="stylesheet"  type="text/css" href="profile.css">
+	<script src="scripts/jquery-3.2.1.min.js"></script>
+	<script src="scripts/main.js"></script>
+	
+  </head>
+  <body>
+    <!--BASE-->
+	<center>
+	<div id="header">
+		<img src="images/logo.png"/>
+		<div>Make an impact</div>
+		<br/>
+	</div>
+	<div id="content">
+		<br/>
+		<h1 style="color:white; font-size:48px;">Causas</h1>
+		<br/>
+		<div id="categories">
+			<span class="category">Hospitales</span>
+			<span class="category">Escuelas</span>
+			<span class="category">Comunidad</span>
+		</div>
+		<br/><br/>
+		<div id="profile" data-toggle="modal" data-target="#player-modal">
+			<img src="images/jp.png" style="border-radius:360px; width:48px; height:48px;" />&nbsp;&nbsp;&nbsp;John Pierpont Morgan
+		</div>
+		<div id="causes">
+			<div class="cause">
+				<table class="causeinfo">
+					<td class="text" style="width:60%;">Remodelación de la sala de niños</td>
+					<td class="bestdonant"><img src="images/jp.png" style="border-radius:360px; width:48px; height:48px;"/>   JP Morgan</td>
+					<td class="text"><span style="font-size:22px;">$25.492</span> <span style="font-size:36px;">/</span> <span style="font-size:22px;">$100.000</span></td>
+				</table>
+				<div class="description" style="display:none;"><br/><br/><br/><br/><span class="btnHelp" data-toggle="modal" data-target="#aceptardonacion">Quiero ayudar</span><span class="btnInfo" data-toggle="modal" data-target="#melendez">Info</span><br/><br/></div>
+			</div>
+			<div class="cause">
+				<table class="causeinfo">
+					<td class="text" style="width:60%;">Comprar 500 jeringas</td>
+					<td class="bestdonant"><img src="images/jp.png" style="border-radius:360px; width:48px; height:48px;"/>   JP Morgan</td>
+					<td class="text"><span style="font-size:22px;">$25.492</span> <span style="font-size:36px;">/</span> <span style="font-size:22px;">$100.000</span></td>
+				</table>
+				<div class="description" style="display:none;"><br/><br/><br/><br/><span class="btnHelp" data-toggle="modal" data-target="#aceptardonacion">Quiero ayudar</span><span class="btnInfo" data-toggle="modal" data-target="#melendez">Info</span><br/><br/></div>
+			</div>
+			<div class="cause">
+				<table class="causeinfo">
+					<td class="text" style="width:60%;">Arreglar el techo de la sala 4</td>
+					<td class="bestdonant"><img src="images/jp.png" style="border-radius:360px; width:48px; height:48px;"/>   JP Morgan</td>
+					<td class="text"><span style="font-size:22px;">$25.492</span> <span style="font-size:36px;">/</span> <span style="font-size:22px;">$100.000</span></td>
+				</table>
+				<div class="description" style="display:none;"><br/><br/><br/><br/><span class="btnHelp" data-toggle="modal" data-target="#aceptardonacion">Quiero ayudar</span><span class="btnInfo" data-toggle="modal" data-target="#melendez">Info</span><br/><br/></div>
+			</div>
+			<div class="cause">
+				<table class="causeinfo">
+					<td class="text" style="width:60%;">Compra de 6 camillas</td>
+					<td class="bestdonant"><img src="images/jp.png" style="border-radius:360px; width:48px; height:48px;"/>   JP Morgan</td>
+					<td class="text"><span style="font-size:22px;">$25.492</span> <span style="font-size:36px;">/</span> <span style="font-size:22px;">$100.000</span></td>
+				</table>
+				<div class="description" style="display:none;"><br/><br/><br/><br/><span class="btnHelp" data-toggle="modal" data-target="#aceptardonacion">Quiero ayudar</span><span class="btnInfo" data-toggle="modal" data-target="#melendez">Info</span><br/><br/></div>
+			</div>
+			<div class="cause">
+				<table class="causeinfo">
+					<td class="text" style="width:60%;">Compra de 60 sábanas</td>
+					<td class="bestdonant"><img src="images/jp.png" style="border-radius:360px; width:48px; height:48px;"/>   JP Morgan</td>
+					<td class="text"><span style="font-size:22px;">$25.492</span> <span style="font-size:36px;">/</span> <span style="font-size:22px;">$100.000</span></td>
+				</table>
+				<div class="description" style="display:none;"><br/><br/><br/><br/><span class="btnHelp" data-toggle="modal" data-target="#aceptardonacion">Quiero ayudar</span><span class="btnInfo" data-toggle="modal" data-target="#melendez">Info</span><br/><br/></div>
+			</div>
+			<div class="cause">
+				<table class="causeinfo">
+					<td class="text" style="width:60%;">Compra de juguetes</td>
+					<td class="bestdonant"><img src="images/jp.png" style="border-radius:360px; width:48px; height:48px;"/>   JP Morgan</td>
+					<td class="text"><span style="font-size:22px;">$25.492</span> <span style="font-size:36px;">/</span> <span style="font-size:22px;">$100.000</span></td>
+				</table>
+				<div class="description" style="display:none;"><br/><br/><br/><br/><span class="btnHelp" data-toggle="modal" data-target="#aceptardonacion">Quiero ayudar</span><span class="btnInfo" data-toggle="modal" data-target="#garraham">Info</span><br/><br/></div>
+			</div>
+			<br/>
+			<br/>
+		</div>
+	</div>
+	</center>
+	 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="garraham" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Garrahan</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="garraham.jpg">
+        <p>Asistir a todos los niños de 0 a 15 años que requieran atención pediátrica. Mantenerse como centro de referencia para la atención de las patologías de alta complejidad infantil de todo el país. Implementar una organización asistencial basada en los cuidados progresivos con jerarquización de la actividad interdisciplinaria y realizar un abordaje integrador de los pacientes por medio de la coordinación de pediatras clínicos, que permita considerar a cada niño desde múltiples perspectivas, considerando el cuidado de sus aspectos sanos.
+        Alentar, jerarquizar, promover y sostener las actividades de docencia e investigación, así como el desarrollo de avances científicos en las distintas formas de diagnóstico, tratamiento y modelos de gestión.
+        Sostener una conducta ética y preservar el medio ambiente, la seguridad y la salud ocupacional. Velar continuamente por el desarrollo de la sociedad en la que se encuentra inmerso.
+
+        Mantener su condición de institución pública descentralizada, financiada por el Gobierno Nacional y el Gobierno de la Ciudad de Buenos Aires. Cumplir con las políticas emanadas de ambas jurisdicciones.
+        </p>
+      </div>
+      <div class="modal-footer">
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="melendez" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Melendez</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="melendez.jpg">
+        <p>El hospital se encuentra organizado como centro de atención polivalente. Cuenta con una dotación de 180 camas para la internación y 5 quirófanos.
+           Cuenta con servicios de: Pediatría, Neonatología, Tocoginecología, Clínica Médica, Traumatología, Urología, Cirugía, UTI adultos, UTI pediátrica y UTI neonatal. Además de los servicios centrales de Laboratorio, Servicio de Diagnóstico por Imágenes  (radiología, ecografía y tomografía computada –TAC-) y Hemoterapia.
+           Brinda atención por consultorios externos en: cardiología, dermatología, oftalmología, Otrl, Diabetología, gastroenterología, nefrología, oncología, Infectología, neumología, psiquiatría, psicología, neurología y neurocirugía. Cuenta con Servicio de Odontología.
+           El Servicio de Cirugía cuenta un equipo de cirugía laparoscópica (cirugía general, urología y ginecología) y estudios endoscópicos gastroenterológicos.
+           El servicio de guardia se encuentra organizado para la atención de adultos, acceso individual para la atención pediátrica y de tocoginecología. Además, se cuenta con sala de yesos para la atención de los pacientes traumatizados.
+        </p>
+      </div>
+      <div class="modal-footer">
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="ramosMejia" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ramos Mejia</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="hospital-ramos-mejia.jpg">
+        <p>El hospital inicialmente se situó en una serie de galpones que sirvieron como lugar de atención de enfermos durante la epidemia de cólera en 1868 y más tarde fue unos de los que atendió a los soldados heridos durante la Guerra de la Triple Alianza.2​
+           En 1883 se inauguró formalmente el hospital con el nombre de San Roque, ya destinado tanto a mujeres, hombres y niños.2​ El conjunto de edificios fue proyectado por el Arquitecto Municipal Juan Antonio Buschiazzo.3​ Se edificó sobre un terreno de 16.900 metros cuadrados, casi dos manzanas. Con un estilo arquitectónico sencillo pero no desprovisto de la elegancia acorde con el que en aquella época se les daba a los edificios destinados a la salud. El Hospital San Roque, como fue nombrado, fue inaugurado el domingo 12 de agosto de 1883, en una ceremonia presidida por el Dr. Ramos Mejía.
+        </p>
+      </div>
+      <div class="modal-footer">
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="arturo" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Arturo Oñativa</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="hospitalonativia.jpg">
+        <p>El Hospital de Gestión Descentralizada Dr. Arturo Oñativia brinda atención en enfermedades endocrino – metabólicas en forma integral, a pacientes de capital, interior de la provincia de Salta, otras provincias y países vecinos.
+           Desarrolla una estructura y cultura organizativa que promueve la salud y coopera activamente con su comunidad. La promoción y prevención de la salud contemplan la puesta en marcha de diversas estrategias y acciones dirigidas para favorecer la incorporación de prácticas individuales, ambientales y comunitarias saludables, estableciéndose acuerdos intra e interinstitucionales (escuelas, clubes, comedores, Centros de Salud, Hospitales, otros Programas del MSP, Organismos oficiales, etc.)
+        </p>
+      </div>
+      <div class="modal-footer">
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="domingo" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Domingo Cabred</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="cabred.png">
+        <p>
+            El Hospital Interzonal Colonia Dr. Domingo Cabred no es una teoría, ha sido creado y mantenido por la acción de muchas personas que fueron modificando la realidad y que se vieron modificadas por ella.
+            Las experiencias de ese proceso de interacción entre los individuos y su medio, son las que configuraron esta Institución.
+            Recuperar en la memoria lo que paso aquí, constituye un semillero de ideas que son nuestro patrimonio común.
+            La historia, como señaló Lucien Febvre, no es una necrópolis dormida por la que sólo pasan sombras desprovistas de sustancias
+        </p>
+      </div>
+      <div class="modal-footer">
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="player-modal" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">John Pierpont Morgan</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="col-12">
+            
+        <div>
+          <img id="prof_pic" class="rounded-circle"src="elon.jpg"/>
+          <div id="level">
+            <h2 class="my_h2">Nivel: Pilar de la comunidad</h2>
+          </div>
+        </div>
+        <!-- Progress bar -->
+        <div style="margin-top: 40px; background-color: white; border-radius: 100px;
+              height: 100px; padding-top: 10px;" class="container">
+          <div class="col-sm-2" style="margin-left: 45%;"> <h3 id="my_h3">Puntaje:</h3></div>
+          <div class="col-sm-10">
+              <div id="my_progress-bar" class="progress" style="margin-left:25%;">
+              <div  class="progress-bar progress-bar-striped active" role="progressbar"
+                    aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                <p style="margin-left:40%; margin-top:60%;">1170</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- tabla de las badges -->
+        <div id="medals">
+          <h2 class="my_h2" style="margin-top:2%;padding-top:30px;padding-bottom:30px;"> Medallas </h2>
+          <table class="table">
+            <tr>
+              <td class="my_td">
+                <div>
+                  <img class="my_badge" src="FirstDonation.jpg"/>
+                  <p class="badge-name">Primera donación!</p>
+                </div>
+              </td>
+              <td class="my_td">
+                <div>
+                  <img class="my_badge" src="medallaDeFuego2.png"/>
+                  <p class="badge-name">Racha de donaciones!</p>
+                </div>
+              </td>
+              <td class="my_td">
+                <div>
+                  <img class="my_badge" src="goldShield.jpg"/>
+                  <p class="badge-name">Padrino</p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="my_td">
+                <div>
+                  <img class="my_badge" src="blankImage.jpg"/>
+                  <p class="badge-name">??????</p>
+                </div>
+              </td>
+              <td class="my_td">
+                <div>
+                  <img class="my_badge" src="blankImage.jpg"/>
+                  <p class="badge-name">??????</p>
+                </div>
+              </td>
+              <td class="my_td">
+                <div>
+                  <img class="my_badge" src="blankImage.jpg"/>
+                  <p class="badge-name">??????</p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer"></div>
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="aceptardonacion" aria-labelledby="aceptardonacion" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="title-for-donation"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-sm-5">
+              <form>
+                <div class="form-group">
+                  <label for="email">Donanción a la causa:</label>
+                  <input type="text" class="form-control" id="email" placeholder="$2000">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Donación para el mantenimiento del sitio:</label>
+                  <input type="text" class="form-control" id="pwd" placeholder="$4000">
+                </div>
+              </form>
+            </div>
+            <div class="col-sm-7"></div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal" id="notification-opener">Confirmar</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="notificacion">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">¡Ganó 20 puntos!</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Le faltan 180 puntos para llegar al proximo nivel.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal"><img src="3893-200.png"></button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal" id="medal-opener">Continuar</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+  <div class="modal fade" id="medal-notification">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">¡Desbloqueó una medalla, En Racha!</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img id="sapras" width="100" height="140" src="medallaDeFuego2.png">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal"><img src="3893-200.png"></button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Continuar</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+	 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script src="scripts.js"></script>
+  </body>
+</html>
