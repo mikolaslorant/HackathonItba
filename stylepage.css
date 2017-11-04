@@ -54,6 +54,7 @@ img {
 	margin-top: 20%;
 }
 
+
 #hospitals{
 	background-color: rgba(243,40,155,0.6);
     height: 500px;
@@ -67,4 +68,7 @@ img {
 	background-color: rgba(195,13,35,0.6);
 	border-radius: 60px;
 	margin-left: 5%;
+
+#sapras{
+	margin-left: 100px;
 }
