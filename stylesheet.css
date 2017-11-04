@@ -1,0 +1,72 @@
+#content{
+	background-color:rgba(210, 45, 45, 1);
+	box-shadow:-4px 0 16px rgba(0, 0, 0, 0.5);
+	width:100%;
+}
+
+.category{
+	padding:10px;
+	background-color:white;
+	border-radius:360px;
+	margin:5px;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.cause{
+	background-color:white;
+	width:75%;
+	border-radius:5px;
+	box-shadow:0 3px 8px rgba(0, 0, 0, 0.4);
+	padding:10px;
+	margin-bottom:25px;
+	cursor:pointer;
+}
+
+.text{
+	color:rgba(210, 45, 45, 1);
+	font-weight:bold;
+	padding-left:15px;
+	width:25%;
+	font-size:24px;
+	text-align:center;
+}
+
+.bestdonant{
+	width:15%;
+	font-weight:bold;
+	text-align:center;
+}
+
+.causeinfo{
+	padding:10px;
+	width:100%;
+}
+
+.btnHelp{
+	border-radius:15px;
+	background-color:rgba(210, 45, 45, 1);
+	color:white;
+	font-size:24px;
+	padding:10px 15px;
+	width:40%;
+	text-align:center;
+	margin-right:10px;
+}
+
+.btnInfo{
+	border-radius:15px;
+	background-color:rgba(210, 150, 180, 1);
+	color:white;
+	font-size:24px;
+	padding:10px 15px;
+	width:20%;
+	text-align:center;
+}
+
+#profile{
+	position:absolute;
+	top:10px;
+	right:20px;
+	cursor:pointer;
+}
