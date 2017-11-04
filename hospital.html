@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <head>
+     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!--My CSS-->
+    <link rel="stylesheet" type="text/css" href="stylepage.css">
     <meta charset="UTF-8">
     <title> Hospital Garraham</title>
     <link rel="stylesheet" href="stylepage.css">
@@ -15,7 +18,6 @@
             <img src="depositphotos_125586356-stock-illustration-colorful-isolated-mosaic-cross-logo.jpg" id="logo">
           </div>
           <div class="row lat-btn"><button type="button" class="btn btn-primary" onclick="window.location.href='profile.html'">Perfil</button></div>
-          <div class="row lat-btn"><button type="button" class="btn btn-primary" onclick="window.location.href='index.html'">Hospitales</button></div>
           <div class="row lat-btn"><button type="button" class="btn btn-primary">Ranking</button></div>
       </div>
       <div class="col-10">
@@ -27,7 +29,7 @@
         <div class="row">
             <div class="col-12">
                 <ul class="list-group">
-                    <li class="listaloca list-group-item list-group-item-success"><div class="row darow"> <div class="col-sm-6 necesidades"> Remodelación de la sala de niños</div>  <div class="col-sm-3"><button type="button" class="btn btn-default boti">¡Quiero ayudar!</button></div></div></li>
+                    <li class="listaloca list-group-item list-group-item-success"><div class="row darow"> <div class="col-sm-6 necesidades" id="1necesidades"> Remodelación de la sala de niños</div>  <div class="col-sm-3"><button type="button" id ="1" class="btn btn-default boti" data-toggle="modal" data-target="#aceptardonacion">¡Quiero ayudar!</button></div></div></li>
                     <li class="listaloca list-group-item list-group-item-info"> <div class="row darow"><div class= "col-sm-6 necesidades"> Comprar 500 jeringas</div>  <div class="col-sm-3"><button type="button" class="btn btn-default boti">¡Quiero ayudar!</button></div></div></li>
                     <li class="listaloca list-group-item list-group-item-warning"> <div class="row darow"><div class="col-sm-6 necesidades"> Arreglar el techo de la sala 4 </div>  <div class="col-sm-3"><button type="button" class="btn btn-default boti">¡Quiero ayudar!</button></div></div></li>
                     <li class="listaloca list-group-item list-group-item-danger">  <div class="row darow"><div class="col-sm-6 necesidades"> Compra de 6 camillas </div>  <div class="col-sm-3"><button type="button" class="btn btn-default boti">¡Quiero ayudar!</button></div></div></li>
@@ -38,4 +40,43 @@
         </div>
     </div>
 </div>
+  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="aceptardonacion" aria-labelledby="aceptardonacion" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="title-for-donation"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-sm-5">
+              <form>
+                <div class="form-group">
+                  <label for="email">Donanción a la causa:</label>
+                  <input type="text" class="form-control" id="email" placeholder="$2000">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Donación para el mantenimiento del sitio:</label>
+                  <input type="text" class="form-control" id="pwd" placeholder="$4000">
+                </div>
+              </form>
+            </div>
+            <div class="col-sm-7"></div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Confirmar</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+
 </body>
