@@ -28,3 +28,10 @@ img {
     margin: 1px;
     padding: 1px;
 }
+.upperbar {
+	width:110%;
+	height: 150px;
+}
+.hosplist {
+	width: 400px !important;
+}
