@@ -35,3 +35,15 @@ img {
 .hosplist {
 	width: 400px !important;
 }
+
+#point {
+	font:Impact, Charcoal, sans-serif;
+}
+
+#greeting {
+	font-size: 25px;
+	color: white;
+}
+#separated {
+	margin-top: 20%;
+}
