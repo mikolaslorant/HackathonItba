@@ -17,23 +17,24 @@
           <div class="row">
             <img src="depositphotos_125586356-stock-illustration-colorful-isolated-mosaic-cross-logo.jpg" id="logo">
           </div>
-          <div class="row lat-btn"><button type="button" class="btn btn-primary">Perfil</button></div>
+          <div class="row lat-btn"><button type="button" class="btn btn-primary" onclick="window.location.href='profile.html'">Perfil</button></div>
           <div class="row lat-btn"><button type="button" class="btn btn-primary">Hospitales</button></div>
           <div class="row lat-btn"><button type="button" class="btn btn-primary">Ranking</button></div>
       </div>
       <div class="col-10">
         <div class="row bg-primary upperbar">
-            <h1 class="upperBar">Hospitales</h1>
-          <div class="col-12"></div>
+          <div class="col-10"></div>
+          <div class="col-2"><p id="greeting">Hola JuanPablo73</p></div>
         </div>
         <!--TODO ADENTRO DE LA ROW SIGUIENTE-->
         <div class="row">
           <!--BASE-->
-          <div class="col-sm-12 col-md-auto">
+          <div class="col-sm-6 col-md-auto">
+            <h2>Hospitales</h2>
               <ul class="list-group">
                 <li class="list-group-item hosplist">Garraham
                   <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#garraham">Info</button>
-                  <button type="button" class="btn btn-primary">Donar...</button>
+                  <button type="button" class="btn btn-primary" onclick="window.location.href='hospital.html'">Donar...</button>
                 </li>
                 <li class="list-group-item hosplist">Garraham
                   <button type="button" class="btn btn-secondary">Info</button>
@@ -50,6 +51,20 @@
                   <button type="button" class="btn btn-secondary">Info</button>
                   <button type="button" class="btn btn-primary">Donar...</button></li>
               <ul class="list-group">
+          </div>
+          <div class="col-sm-6 col-md-auto">
+            <div>
+              <h2>Puntaje</h2>
+                <ul class="list-group">
+                  <li class="list-group-item hosplist"><h1 id="points">40</h1></li>
+                <ul class="list-group">
+            </div>
+            <div id="separated">
+              <h2>Amigos</h2>
+              <ul class="list-group">
+                <li class="list-group-item hosplist"><h1 id="amigos">Francisco21jeje</h1></li>
+              <ul class="list-group">
+            </div>
           </div>
         </div>
       </div>
