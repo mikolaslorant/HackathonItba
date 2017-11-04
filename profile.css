@@ -46,9 +46,9 @@ table{
 }
 
 #prof_pic {
-	height: 400px;
-	width: 400px;
-	margin-left: 37%;
+	height: 300px;
+	width: 300px;
+	margin-left: 40%;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
@@ -69,10 +69,16 @@ table{
 
 #holder{
 	background-color: #fff2dc;
+	border-radius: 100px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
 
-border-radius: 100px;
-
-margin-left: 50px;
-
-margin-top: 50px;
+#level{
+	background-color: #ffff;
+	border-radius: 100px;
+	width: 600px;
+	height: 60px;
+	margin-left: 31%;
+	padding-top: 1%;
 }
