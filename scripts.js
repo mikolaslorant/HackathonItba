@@ -1,5 +1,5 @@
 $("document").ready ( function() {
-
+	$("#player-modal").modal("show");
 	$(".boti").click( function(){
 		var title = $("#" + $(this).attr("id")+"necesidades").text();
 		console.log(title);

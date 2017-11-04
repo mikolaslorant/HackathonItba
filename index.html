@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!--My CSS-->
     <link rel="stylesheet" type="text/css" href="stylepage.css">
+    <link rel="stylesheet"  type="text/css" href="profile.css">
   </head>
   <body>
     <!--BASE-->
@@ -19,6 +20,7 @@
           </div>
           <div class="row lat-btn"><button type="button" class="btn btn-primary" onclick="window.location.href='profile.html'">Perfil</button></div>
           <div class="row lat-btn"><button type="button" class="btn btn-primary">Ranking</button></div>
+          <button type="button" id="4" class="btn btn-default boti" data-toggle="modal" data-target="#player-modal"></button>
       </div>
       <div class="col-10">
         <div class="row upperbar">
@@ -204,6 +206,92 @@
 
 
       </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="player-modal" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Juan Pablo Morgan</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="col-12">
+            
+        <div>
+          <img id="prof_pic" class="rounded-circle"src="elon.jpg"/>
+          <div id="level">
+            <h2 class="my_h2">Nivel: Pilar de la comunidad</h2>
+          </div>
+        </div>
+        <!-- Progress bar -->
+        <div style="margin-top: 40px; background-color: white; border-radius: 100px;
+              height: 100px; padding-top: 10px;" class="container">
+          <div class="col-sm-2" style="margin-left: 45%;"> <h3 id="my_h3">Puntaje:</h3></div>
+          <div class="col-sm-10">
+              <div id="my_progress-bar" class="progress" style="margin-left:25%;">
+              <div  class="progress-bar progress-bar-striped active" role="progressbar"
+                    aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                <p style="margin-left:40%; margin-top:60%;">1170</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- tabla de las badges -->
+        <div id="medals">
+          <h2 class="my_h2" style="margin-top:2%;padding-top:30px;padding-bottom:30px;"> Medallas </h2>
+          <table class="table">
+            <tr>
+              <td class="my_td">
+                <div>
+                  <img class="my_badge" src="FirstDonation.jpg"/>
+                  <p class="badge-name">Primera donación!</p>
+                </div>
+              </td>
+              <td class="my_td">
+                <div>
+                  <img class="my_badge" src="medallaDeFuego2.png"/>
+                  <p class="badge-name">Racha de donaciones!</p>
+                </div>
+              </td>
+              <td class="my_td">
+                <div>
+                  <img class="my_badge" src="goldShield.jpg"/>
+                  <p class="badge-name">Padrino</p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="my_td">
+                <div>
+                  <img class="my_badge" src="blankImage.jpg"/>
+                  <p class="badge-name">??????</p>
+                </div>
+              </td>
+              <td class="my_td">
+                <div>
+                  <img class="my_badge" src="blankImage.jpg"/>
+                  <p class="badge-name">??????</p>
+                </div>
+              </td>
+              <td class="my_td">
+                <div>
+                  <img class="my_badge" src="blankImage.jpg"/>
+                  <p class="badge-name">??????</p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer"></div>
     </div>
   </div>
 </div>
