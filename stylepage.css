@@ -36,7 +36,7 @@ img {
 .upperbar {
 	width:110%;
 	height: 150px;
-	background-image: url("header.jpg");
+	background-image: url("fondo.png");
 }
 .hosplist {
 	width: 500px !important;
